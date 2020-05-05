@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tech Era - Articles</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/article.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+        integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="images/logo.png" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+</head>
+
+<body>
+
+<div class="container">
+    <header class="blog-header py-3">
+      <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col-4 pt-1">
+          <a class="text-muted" href="home.html">Home Page</a>
+        </div>
+        <div class="col-4 text-center">
+        <a class="navbar-brand" href="/"><img class="brandLogo" src="images/logo.png"
+        alt="My image" height="40" width="40"></a>
+          <a class="blog-header-logo text-dark" href="#"><strong> The Tech Era - Article</strong></a>
+        </div>
+        <div class="col-4 d-flex justify-content-end align-items-center">
+          </a>
+          <a class="btn btn-sm btn-outline-secondary" href="aboutUs.html">About</a>
+        </div>
+      </div>
+    </header>
+
+
+
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <a href="#" class="navbar-brand"></a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav">
+                <li class="nav-item ">
+                    <a class="nav-link" href="Blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="videos.html">Videos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="article.html">Articles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="podcast.html">Podcast</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="books.html">Books</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="researchPaper.html">Research </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="advice.html">Advice</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+  </div>
+
+
+
+    <div class="container marketing">
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Java Programming Language.<span class="text-muted">It’ll
+                        blow your mind.</span>
+                </h2>
+                <p class="lead">Java has been one of the most popular programming language for many years. Java is Object Oriented.
+                    However it is not considered as pure object oriented as it provides support for primitive data types
+                    (like int, char, etc).The Java codes are first compiled into byte code (machine independent code).
+                    Then the byte code is run on Java Virtual Machine (JVM) regardless of the underlying architecture.
+                    Java syntax is similar to C/C++. But Java does not provide low level programming functionalities
+                    like pointers. Also, Java codes are always written in the form of classes and objects..
+            </div>
+            <div class="col-md-5">
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="https://images.pexels.com/photos/1181673/pexels-photo-1181673.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" width="500"
+                height="500" preserveAspectRatio="xMidYMid slice" focusable="false"
+                role="img" aria-label="Placeholder: 500x500">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading">Android Kernel: Lacking in Modularity<span class="text-muted">See for yourself.</span></h2>
+                <p class="lead">"Android" kernel? There didn't seem to be much in this article that is specific to android. And of course there's fairly high coupling in a monolithic kernel like linux -- you're necessarily going to have all sorts of asynchronous communication between different parts of of a kernel and sharing of data structures and global queues, locks, etc. What the hell did you expect? In particular, this bit strikes me as very naive:
+
+    This partitioning algorithm reorders the subsystems based on dependencies, revealing what is "lower" and what is "higher." In an ideal implementation, the developers of the higher layer need only understand the API of the lower layers, while the developers of the lower layers need to worry about the higher layers only when an interface is affected.</div>
+            <div class="col-md-5 order-md-1">
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="https://images.pexels.com/photos/1156684/pexels-photo-1156684.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" width="500"
+                height="500" preserveAspectRatio="xMidYMid slice" focusable="false"
+                role="img" aria-label="Placeholder: 500x500">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Models for machine learning<span class="text-muted">Explore the ideas behind machine learning models</span>
+                </h2>
+                <p class="lead">Algorithms used in machine learning fall roughly into three categories: supervised, unsupervised, and reinforcement learning. Supervised learning involves feedback to indicate when a prediction is right or wrong, whereas unsupervised learning involves no response: The algorithm simply tries to categorize data based on its hidden structure. Reinforcement learning is similar to supervised learning in that it receives feedback, but it’s not necessarily for each input or state. This tutorial explores the ideas behind these learning models and some key algorithms used for each.<a href="https://developer.ibm.com/articles/cc-models-machine-learning/">read more...</a></p>
+            </div>
+            <div class="col-md-5">
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="https://images.pexels.com/photos/2103864/pexels-photo-2103864.jpeg?cs=srgb&dl=action-figure-antique-blur-2103864.jpg&fm=jpg" width="500"
+                height="500" preserveAspectRatio="xMidYMid slice" focusable="false"
+                role="img" aria-label="Placeholder: 500x500">
+            </div>
+        </div>
+        <hr class="featurette-divider">
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading">Deep Learning <span class="text-muted">Cracking the Internal Health Code with Deep Learning</span></h2>
+                <p class="lead">In our brain, biological neurons can connect with other neurons within a certain distance to process the data quickly. Artificial neural networks use discrete layers, connections, and directions for data to travel.
+
+Each layer can be assigned a task. As the data goes from the first to the final layer, different tasks are applied. After the final layer, the final output is produced that will offer insights. To analyze the medical images, you often need more than 100 of such layers to identify and classify multiple appearance from millions images<a href="https://www.ibm.com/blogs/think/2018/04/deep-learning-health/">read more..</a></p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fbernardmarr%2Ffiles%2F2018%2F10%2FAdobeStock_179912599-1-1200x797.jpg" width="500"
+          height="500" preserveAspectRatio="xMidYMid slice" focusable="false"
+          role="img" aria-label="Placeholder: 500x500">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">A neural networks deep dive <span class="text-muted">
+                        An introduction</span>
+                </h2>
+                <p class="lead">Neural networks have been around for more than 70 years, but the introduction of deep learning has raised the bar in image recognition and even learning patterns in unstructured data (such as documents or multimedia). Deep learning is based on fundamental concepts of the perceptron and learning methods like back-propagation. This tutorial implements and works its way through single-layer perceptrons to multilayer networks and configures learning with back-propagation to give you a deeper understanding <a href="https://developer.ibm.com/articles/cc-cognitive-neural-networks-deep-dive/?mhq=neural%20networks&mhsrc=ibmsearch_a">read more..</a></p>
+            </div>
+            <div class="col-md-5">
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/b0/279370104d11e8822ac99a970c5b43/CarouselAds_DL_Neural.png?auto=format%2Ccompress&dpr=2.625" width="500"
+          height="500" preserveAspectRatio="xMidYMid slice" focusable="false"
+          role="img" aria-label="Placeholder: 500x500">
+            </div>
+        </div>
+        <hr class="featurette-divider">
+
+        <!-- /END THE FEATURETTES -->
+
+    </div><!-- /.container -->
+
+ <footer class="footer py-5" style="
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+">
+    <div class="row">
+      <div class="col-12 col-md">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+          stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img"
+          viewBox="0 0 24 24" focusable="false">
+          <title>Product</title>
+          <circle cx="12" cy="12" r="10"></circle>
+          <path
+            d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94">
+          </path>
+        </svg>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Features</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">Learning ambience</a></li>
+          <li><a class="text-muted" href="#">Updated information</a></li>
+          <li><a class="text-muted" href="#">All ready resources</a></li>
+          <li><a class="text-muted" href="#">Stuff for developers</a></li>
+          <li><a class="text-muted" href="#">Up to pace</a></li>
+          <li><a class="text-muted" href="#">Best of all</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Resources</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="videos.html">Videos</a></li>
+          <li><a class="text-muted" href="article.html">Articles</a></li>
+          <li><a class="text-muted" href="podcast.html">Podcast</a></li>
+          <li><a class="text-muted" href="blog.html">Blog</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Other Resources</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="books.html">Books</a></li>
+          <li><a class="text-muted" href="researchPaper.html">Papers and Documents</a></li>
+          <li><a class="text-muted" href="projects.html">Projects</a></li>
+          <li><a class="text-muted" href="advice.html">Advice</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Connect</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="https://github.com/abhishekbbn">Github</a></li>
+          <li><a class="text-muted" href="https://www.linkedin.com/in/abhishek-srivastava-49482a190/">Linkedin</a></li>
+          <li><a class="text-muted" href="https://www.reddit.com/user/abhishek__ab">Reddit</a></li>
+          <li><a class="text-muted" href="https://www.instagram.com/abhishek._.ab/">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </footer>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="/docs/4.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
+        crossorigin="anonymous"></script>
+</body>
+
+
+
+<!-- START THE FEATURETTES -->
+</body>
+
+</html>
